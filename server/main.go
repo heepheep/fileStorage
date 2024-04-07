@@ -2,7 +2,7 @@ package server
 
 import "github.com/gin-gonic/gin"
 
-func main() {
+func Main() {
 	router := gin.Default()
 
 	router.GET("/file/:id", func(c *gin.Context) {
